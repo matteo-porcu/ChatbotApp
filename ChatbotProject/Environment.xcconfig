@@ -1,0 +1,8 @@
+// WARNING: Keeping the API key in a xcconfig file is just for convenience if you clone the project; this should not be done in production, since an attacker could retrieve your API key from your app.
+// For more information:
+// - https://platform.openai.com/docs/api-reference/authentication
+// - https://nshipster.com/secrets/
+// - https://www.youtube.com/watch?v=RLzbHHoEKo8
+
+// Replace with your API key
+API_KEY = your-api-key

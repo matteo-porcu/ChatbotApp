@@ -8,17 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		952D4DAF2A20B06300A9D7D5 /* ChatbotProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952D4DAE2A20B06300A9D7D5 /* ChatbotProjectApp.swift */; };
-		952D4DB12A20B06300A9D7D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952D4DB02A20B06300A9D7D5 /* ContentView.swift */; };
+		952D4DB12A20B06300A9D7D5 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952D4DB02A20B06300A9D7D5 /* MainView.swift */; };
 		952D4DB32A20B06400A9D7D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 952D4DB22A20B06400A9D7D5 /* Assets.xcassets */; };
 		952D4DB62A20B06400A9D7D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 952D4DB52A20B06400A9D7D5 /* Preview Assets.xcassets */; };
+		952D4DC12A20B2B800A9D7D5 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952D4DC02A20B2B800A9D7D5 /* MainViewModel.swift */; };
+		952D4DC42A20B2DD00A9D7D5 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952D4DC32A20B2DD00A9D7D5 /* Network.swift */; };
+		952D4DC72A20B35E00A9D7D5 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 952D4DC62A20B35E00A9D7D5 /* Alamofire */; };
+		952D4DCA2A20B62000A9D7D5 /* ChatResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952D4DC92A20B62000A9D7D5 /* ChatResponse.swift */; };
+		952D4DCE2A20C1E600A9D7D5 /* MessageRowItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952D4DCD2A20C1E600A9D7D5 /* MessageRowItem.swift */; };
+		952D4DD02A20C2A200A9D7D5 /* MessageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952D4DCF2A20C2A200A9D7D5 /* MessageRow.swift */; };
+		9566531C2A30D1B800AFBE65 /* Environment.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 9566531B2A30D1B800AFBE65 /* Environment.xcconfig */; };
+		956653202A30DA3300AFBE65 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9566531F2A30DA3300AFBE65 /* Color+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		952D4DAB2A20B06300A9D7D5 /* ChatbotProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatbotProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		952D4DAE2A20B06300A9D7D5 /* ChatbotProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatbotProjectApp.swift; sourceTree = "<group>"; };
-		952D4DB02A20B06300A9D7D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		952D4DB02A20B06300A9D7D5 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		952D4DB22A20B06400A9D7D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		952D4DB52A20B06400A9D7D5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		952D4DC02A20B2B800A9D7D5 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		952D4DC32A20B2DD00A9D7D5 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		952D4DC92A20B62000A9D7D5 /* ChatResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatResponse.swift; sourceTree = "<group>"; };
+		952D4DCD2A20C1E600A9D7D5 /* MessageRowItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRowItem.swift; sourceTree = "<group>"; };
+		952D4DCF2A20C2A200A9D7D5 /* MessageRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRow.swift; sourceTree = "<group>"; };
+		9566531B2A30D1B800AFBE65 /* Environment.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Environment.xcconfig; sourceTree = "<group>"; };
+		9566531D2A30D1C000AFBE65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9566531F2A30DA3300AFBE65 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				952D4DC72A20B35E00A9D7D5 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,9 +68,14 @@
 		952D4DAD2A20B06300A9D7D5 /* ChatbotProject */ = {
 			isa = PBXGroup;
 			children = (
+				9566531D2A30D1C000AFBE65 /* Info.plist */,
 				952D4DAE2A20B06300A9D7D5 /* ChatbotProjectApp.swift */,
-				952D4DB02A20B06300A9D7D5 /* ContentView.swift */,
+				9566531E2A30DA1E00AFBE65 /* Extensions */,
+				952D4DC82A20B47000A9D7D5 /* Models */,
+				952D4DC22A20B2CB00A9D7D5 /* Network */,
+				952D4DBC2A20B27200A9D7D5 /* UI */,
 				952D4DB22A20B06400A9D7D5 /* Assets.xcassets */,
+				9566531B2A30D1B800AFBE65 /* Environment.xcconfig */,
 				952D4DB42A20B06400A9D7D5 /* Preview Content */,
 			);
 			path = ChatbotProject;
@@ -65,6 +87,81 @@
 				952D4DB52A20B06400A9D7D5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		952D4DBC2A20B27200A9D7D5 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				952D4DBD2A20B27A00A9D7D5 /* Scenes */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		952D4DBD2A20B27A00A9D7D5 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				952D4DBE2A20B28B00A9D7D5 /* Main */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		952D4DBE2A20B28B00A9D7D5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				952D4DB02A20B06300A9D7D5 /* MainView.swift */,
+				952D4DBF2A20B29200A9D7D5 /* ViewModels */,
+				952D4DCC2A20C1AD00A9D7D5 /* Rows */,
+				952D4DCB2A20C0FD00A9D7D5 /* Models */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		952D4DBF2A20B29200A9D7D5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				952D4DC02A20B2B800A9D7D5 /* MainViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		952D4DC22A20B2CB00A9D7D5 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				952D4DC32A20B2DD00A9D7D5 /* Network.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		952D4DC82A20B47000A9D7D5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				952D4DC92A20B62000A9D7D5 /* ChatResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		952D4DCB2A20C0FD00A9D7D5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				952D4DCD2A20C1E600A9D7D5 /* MessageRowItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		952D4DCC2A20C1AD00A9D7D5 /* Rows */ = {
+			isa = PBXGroup;
+			children = (
+				952D4DCF2A20C2A200A9D7D5 /* MessageRow.swift */,
+			);
+			path = Rows;
+			sourceTree = "<group>";
+		};
+		9566531E2A30DA1E00AFBE65 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9566531F2A30DA3300AFBE65 /* Color+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +180,9 @@
 			dependencies = (
 			);
 			name = ChatbotProject;
+			packageProductDependencies = (
+				952D4DC62A20B35E00A9D7D5 /* Alamofire */,
+			);
 			productName = ChatbotProject;
 			productReference = 952D4DAB2A20B06300A9D7D5 /* ChatbotProject.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +211,9 @@
 				Base,
 			);
 			mainGroup = 952D4DA22A20B06300A9D7D5;
+			packageReferences = (
+				952D4DC52A20B35E00A9D7D5 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 952D4DAC2A20B06300A9D7D5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +228,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9566531C2A30D1B800AFBE65 /* Environment.xcconfig in Resources */,
 				952D4DB62A20B06400A9D7D5 /* Preview Assets.xcassets in Resources */,
 				952D4DB32A20B06400A9D7D5 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +241,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				952D4DB12A20B06300A9D7D5 /* ContentView.swift in Sources */,
+				952D4DCA2A20B62000A9D7D5 /* ChatResponse.swift in Sources */,
+				952D4DB12A20B06300A9D7D5 /* MainView.swift in Sources */,
 				952D4DAF2A20B06300A9D7D5 /* ChatbotProjectApp.swift in Sources */,
+				952D4DCE2A20C1E600A9D7D5 /* MessageRowItem.swift in Sources */,
+				952D4DD02A20C2A200A9D7D5 /* MessageRow.swift in Sources */,
+				952D4DC42A20B2DD00A9D7D5 /* Network.swift in Sources */,
+				952D4DC12A20B2B800A9D7D5 /* MainViewModel.swift in Sources */,
+				956653202A30DA3300AFBE65 /* Color+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +257,7 @@
 /* Begin XCBuildConfiguration section */
 		952D4DB72A20B06400A9D7D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9566531B2A30D1B800AFBE65 /* Environment.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -195,7 +306,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -207,6 +318,7 @@
 		};
 		952D4DB82A20B06400A9D7D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9566531B2A30D1B800AFBE65 /* Environment.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -249,7 +361,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -261,6 +373,7 @@
 		};
 		952D4DBA2A20B06400A9D7D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9566531B2A30D1B800AFBE65 /* Environment.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -269,11 +382,14 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ChatbotProject/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChatbotProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -289,6 +405,7 @@
 		};
 		952D4DBB2A20B06400A9D7D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9566531B2A30D1B800AFBE65 /* Environment.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -297,11 +414,14 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ChatbotProject/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChatbotProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -337,6 +457,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		952D4DC52A20B35E00A9D7D5 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		952D4DC62A20B35E00A9D7D5 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 952D4DC52A20B35E00A9D7D5 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 952D4DA32A20B06300A9D7D5 /* Project object */;
 }
